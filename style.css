@@ -1,0 +1,309 @@
+header, nav, main, address, footer {display: block;}
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: niveau-grotesk, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	/*background-color: #F3EDF1;
+	color: #202427;
+	font-family: Verdana, Roboto, Arial;
+	line-height: 1.5;*/
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 1200px;
+	max-width: 1400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/header {
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-image: url(bannerimg.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+h1 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+	height: auto;
+}
+
+nav {
+	text-align: center;
+	margin-top: -95px;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+	overflow: hidden;
+	background-color: #202427;
+	border: solid 5px #771118;
+	width: 100%;
+	padding: 1%;
+}
+
+nav li {
+	display:inline;
+}
+
+nav a {
+	text-decoration: none; 
+	font-weight: bold;
+	padding: 0 50px;
+	color: #D5DEDD;
+}
+
+nav a:hover{ 
+	color: #771118;
+}
+
+
+.activePage {
+	color: #C9464C;
+}
+
+main {
+	margin-top: 0;
+}
+
+.container{
+	color: #D5DEDD;
+	border: solid 5px #771118;
+	background-color: #202427;
+	padding: 1%;
+	text-align: center;
+	padding:0;
+	margin-bottom:1em;
+}
+
+.container h2{
+	margin-bottom:0;
+	padding:0;
+}
+
+.container p {
+	margin-top: 10px;
+	margin-bottom: 4em;
+}
+
+h2{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+main a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: #D5DEDD;
+	border: solid 5px #771118;
+	background-color: #202427;
+	padding: 1%;
+}
+
+main a:hover{
+	color: #771118;
+}
+
+h3{
+	margin-top: 3em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+p {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3em;
+}
+
+.row {
+	display: flex;
+
+}
+
+.col {
+	flex: 50%;
+	padding: .5%;
+	background-color: #F3EDF1;
+}
+
+.col p{
+	text-align: justify;
+	padding:0;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.conRow {
+	display: flex;
+
+}
+
+.conCol {
+	flex: 50%;
+	padding: .5%;
+	background-color: #F3EDF1;
+}
+
+.conCol p{
+	text-align: left;
+	padding:0;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+footer {
+	background-color: #474747; 
+	color: #D5DEDD;
+	text-align: center;
+	clear: both;
+}
+
+fieldset {
+	border: none;
+}
+
+form {
+	background-color: #F3EDF1;
+	padding: 10px;
+	margin: 4.5em auto;
+}
+
+.name{
+	display: flex;
+	flex-flow: nowrap;
+	align-items: center;
+}
+
+.name input {
+	vertical-align: middle;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.address{
+	display: flex;
+	flex-flow: nowrap;
+	align-items: center;
+}
+
+.address select{
+	vertical-align: middle;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.address input {
+	vertical-align: middle;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.contact{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.contact input {
+	vertical-align: middle;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.preferred{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.preferred label {
+	margin: 5px 10px 5px 0;
+}
+
+.preferred p {
+	margin: 5px 10px 5px 0;
+}
+
+.preferred input {
+	vertical-align: middle;
+  	margin: 5px 10px 5px 10px;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.myComments label {
+	align-content: center;
+}
+
+.myComments {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.myComments textarea {
+	vertical-align: middle;
+	width: 80%;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.buttons{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.buttons label {
+	margin: 5px 10px 5px 0;
+}
+
+.buttons input {
+	align-items: center;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.buttons input:hover{
+	background-color: #C9464C;
+  	border: 1px solid #ddd;
+}
